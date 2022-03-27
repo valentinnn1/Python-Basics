@@ -1,0 +1,5 @@
+file = open("document.bin", "wb")
+file.write(b"This is good")
+file = open("document.bin", "rb")
+print(file.read(4))
+file.close()

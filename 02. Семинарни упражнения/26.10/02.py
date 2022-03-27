@@ -1,0 +1,7 @@
+k = (2, 3, 4, 5, 6, 7, 8)
+print(k[0])
+print(k[2:3])
+print(7 in k)
+print(k*3)
+tup = k + (11, 22)
+print(tup)

@@ -1,0 +1,6 @@
+f = open('test.txt','r')
+print(f.read())
+f.close()
+f=open('test.txt',mode='w')
+f.write('Writing\n')
+f.close()

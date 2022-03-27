@@ -1,0 +1,7 @@
+num = input('Въведете число: ')
+k = tuple(num)
+p = tuple(num)
+sortk = sorted(k)
+print(tuple(sortk))
+sortp = sorted(p,reverse=True)
+print(tuple(sortp))

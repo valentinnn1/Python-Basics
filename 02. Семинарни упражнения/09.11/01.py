@@ -1,0 +1,8 @@
+txt = input('Въведете текст: ')
+tupple1 = tuple(txt)
+print(tupple1)
+tupple2 = tuple(txt[::-1])
+print(tupple2)
+tupple3 = tuple(map(ord,txt))
+print(tupple3)
+print(sorted(tupple3))
